@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2025-04-25" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.3.3316" locale="it_IT">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Nome" width="200" order="0"/>
+        <field id="tpd4" name="Data d'inizio" width="75" order="1"/>
+        <field id="tpd5" name="Data di fine" width="75" order="2"/>
+        <field id="tpd15" name="Note" width="20" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <option id="color.recent"><![CDATA[#009966 #330099 #3300cc #0066cc #990033 #ff0033]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nome" width="210" order="0"/>
+        <field id="1" name="Ruolo predefinito" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="6" uid="2c853ced212949b6a33cf91a00318bee" name="PIANIFICAZIONE" meeting="false" start="2025-05-06" duration="5" complete="0" expand="false">
+            <task id="8" uid="10e739bee9d14be5950c029c92b59b13" name="Creare piano di progetto" meeting="false" start="2025-05-06" duration="1" complete="0" expand="true"/>
+            <task id="7" uid="d8634bcade484cdbbcdc9aecd0c5287a" name="Definire gli obbiettivi" meeting="false" start="2025-05-07" duration="4" complete="0" expand="true"/>
+        </task>
+        <task id="9" uid="35a6d12204244baf97639bf535199d0b" name="DESIGN" color="#990033" meeting="false" start="2025-05-13" duration="15" complete="0" expand="false">
+            <task id="12" uid="1567b21945d6494a8d9b0729075fb8b5" name="Finalizzare design" color="#990033" meeting="false" start="2025-05-28" duration="4" complete="0" expand="true"/>
+            <task id="11" uid="180d03d649664df0bf52c00e0cc4c098" name="Approvare e modificare il concept del design" color="#990033" meeting="false" start="2025-05-22" duration="3" complete="0" expand="true"/>
+            <task id="10" uid="9c178dc0fdfa4097b426ad65193bd967" name="Creare il design grafico" color="#990033" meeting="false" start="2025-05-13" duration="7" complete="0" expand="true"/>
+        </task>
+        <task id="13" uid="e5a26949eb9e4e75af85729616f37f3f" name="SVILUPPO" color="#0066cc" meeting="false" start="2025-06-03" duration="15" complete="0" expand="true">
+            <task id="15" uid="eec7f68191e3456698618e435c101b6f" name="Testare il codice" color="#0066cc" meeting="false" start="2025-06-03" duration="15" complete="0" expand="true"/>
+            <task id="14" uid="bbee35c31aa14a2e953aa684233c71f7" name="Scrivere codice" color="#0066cc" meeting="false" start="2025-06-03" duration="15" complete="0" expand="true"/>
+        </task>
+        <task id="16" uid="a194c5516f39428ab2ccf10c7ddd6880" name="TESTING" color="#3300cc" meeting="false" start="2025-06-24" duration="5" complete="0" expand="true">
+            <task id="18" uid="ed65b9500aa348ac8affcbe09f5ebf6d" name="Correggere eventuali errori" color="#330099" meeting="false" start="2025-06-24" duration="5" complete="0" expand="true"/>
+            <task id="17" uid="88f4c4c615d74304aa96eb8bc868bfff" name="Verificare eventuali errori" color="#3300cc" meeting="false" start="2025-06-24" duration="5" complete="0" expand="true"/>
+        </task>
+        <task id="19" uid="5bb3d9dc816c43f9b1413feb9114e1fa" name="CONSEGNA FINALE" color="#009966" meeting="false" start="2025-07-01" duration="6" complete="0" expand="true">
+            <task id="21" uid="1efade57e6b54b44bcd4124545a90d7b" name="Concludere il progetto (controlli finali)" color="#009966" meeting="false" start="2025-07-04" duration="3" complete="0" expand="true"/>
+            <task id="20" uid="97e581f3e5064271a01be3253488a1e6" name="Preparare un report" color="#009966" meeting="false" start="2025-07-01" duration="3" complete="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="Nico Rossi" function="1" contacts="" phone=""/>
+        <resource id="1" name="Giulia Bianchi" function="2" contacts="" phone=""/>
+        <resource id="2" name="Luca Verdi" function="3" contacts="" phone=""/>
+        <resource id="3" name="Sara Neri" function="4" contacts="" phone=""/>
+        <resource id="4" name="Marco Gallo" function="5" contacts="" phone=""/>
+        <resource id="5" name="Elena Costa" function="6" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="8" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="7" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="21" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="12" resource-id="1" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="11" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="10" resource-id="1" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="11" resource-id="2" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="12" resource-id="2" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="10" resource-id="2" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="15" resource-id="3" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="18" resource-id="3" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="14" resource-id="4" function="5" responsible="true" load="100.0"/>
+        <allocation task-id="17" resource-id="4" function="5" responsible="true" load="100.0"/>
+        <allocation task-id="20" resource-id="5" function="6" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles>
+        <role id="1" name="Project Manager"/>
+        <role id="2" name="Graphic Designer"/>
+        <role id="3" name="Web developer"/>
+        <role id="4" name="Social media manager"/>
+        <role id="5" name="marketing strategist"/>
+        <role id="6" name="customer service"/>
+    </roles>
+</project>
